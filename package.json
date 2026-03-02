@@ -1,6 +1,6 @@
 {
   "name": "filebeam",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "p2p file transfer using hyperbeam",
   "license": "MIT",
   "author": "supersuryaansh",
@@ -17,8 +17,12 @@
   },
   "dependencies": {
     "b4a": "^1.8.0",
+    "events": "npm:bare-events@^2.8.2",
+    "fs": "npm:bare-fs@^4.5.5",
     "hi-base32": "^0.5.1",
     "hyperbeam": "^3.1.0",
+    "path": "npm:bare-path@^3.0.0",
+    "process": "npm:bare-process@^4.2.2",
     "sodium-universal": "^5.0.1",
     "tar-fs": "^3.1.1",
     "uuid-v4": "^0.1.0"

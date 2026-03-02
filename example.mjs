@@ -1,5 +1,6 @@
 import Filebeam from './index.js'
 import path from 'path'
+import process from 'process'
 
 const args = process.argv.slice(2)
 
