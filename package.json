@@ -1,0 +1,26 @@
+{
+  "name": "filebeam",
+  "version": "1.0.0",
+  "description": "p2p file transfer using hyperbeam",
+  "license": "MIT",
+  "author": "supersuryaansh",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "format": "npx prettier . --write",
+    "lint": "npx lunte --fix"
+  },
+  "devDependencies": {
+    "lunte": "^1.6.0",
+    "prettier": "^3.8.1",
+    "prettier-config-holepunch": "^2.0.0"
+  },
+  "dependencies": {
+    "b4a": "^1.8.0",
+    "hi-base32": "^0.5.1",
+    "hyperbeam": "^3.1.0",
+    "sodium-universal": "^5.0.1",
+    "tar-fs": "^3.1.1",
+    "uuid-v4": "^0.1.0"
+  }
+}
